@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables (contains API keys!)
+.env
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Audio temp files
+assets/sounds/*.wav
+assets/sounds/*.mp3
+
+# Whisper model cache
+*.pt
+
+# Test/debug files
+test_wake_debug.py
+test_debug.py
+
+# Logs
+*.log
