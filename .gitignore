@@ -31,6 +31,9 @@ desktop.ini
 assets/sounds/*.wav
 assets/sounds/*.mp3
 
+# Keep screenshots for README
+!assets/screenshots/
+
 # Whisper model cache
 *.pt
 
